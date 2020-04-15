@@ -92,8 +92,70 @@ nav {
 	margin-bottom: 5px;
 }
 
+#travis {
+	width: 150px;
+	height: 100px;
+}
+
+#airmax {
+	width: 150px;
+	height: 105px;
+}
+
+#bauhaus {
+	width: 150px;
+	height: 105px;
+}
+
 #pricing-box {
 	text-align: center;
 	line-height: 40px;
-	border: 1px solid black;
+	border: 2px solid black;
+}
+
+#pricing-box h4 {
+	background: #2b2262;
+	color: white;
+}
+
+#pricing-box .price {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#pricing-box .btn {
+	background: #f39a96;
+	display: block;
+	color: black;
+	width: 150px;
+	margin: 15px auto;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+footer {
+	background: #454f4e;
+	text-align: end;
+	padding: 5px 2.5px;
+	color: white;
+}
+
+.footer-nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	list-style-type: none;
+}
+
+.footer-nav ul li {
+	margin-left: 15px;
+}
+
+.footer-nav ul li a {
+	color: white;
+}
+
+.copyright {
+	opacity: 0.7;
 }

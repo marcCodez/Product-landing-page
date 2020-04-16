@@ -95,17 +95,17 @@ nav {
 }
 
 #travis {
-	width: 150px;
+	width: 160px;
 	height: 100px;
 }
 
 #airmax {
-	width: 150px;
+	width: 160px;
 	height: 105px;
 }
 
 #bauhaus {
-	width: 150px;
+	width: 160px;
 	height: 105px;
 }
 
@@ -119,6 +119,9 @@ nav {
 	background: #2b2262;
 	color: white;
 	margin-top: 0px; /* SOLUTION TO HEADER TOP SPACING: h4 tags has default margins set to 1.33em */
+	height: 70px;
+	font-size: 28px;
+	padding-top: 18px;
 }
 
 #pricing-box .price {

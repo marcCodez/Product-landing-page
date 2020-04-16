@@ -2,14 +2,15 @@ html {
 	background-color: #fcf2bb;
 	font-family: Arial, Helvetica, sans-serif;
 }
-
+body {
+	margin: 0; /*gets rid of the empty space on the footer and header */
+}
 #header-img {
 	width: 150px;
 	height: 160px;
 }
 
 #header {
-	top: 0;
 	width: 100%;
 	display: flex;
 	align-items: center;

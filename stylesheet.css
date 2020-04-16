@@ -118,6 +118,7 @@ nav {
 #pricing-box h4 {
 	background: #2b2262;
 	color: white;
+	margin-top: 0px; /* SOLUTION TO HEADER TOP SPACING: h4 tags has default margins set to 1.33em */
 }
 
 #pricing-box .price {

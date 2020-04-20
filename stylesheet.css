@@ -16,7 +16,6 @@ body {
 	align-items: center;
 	position: fixed; /* nav bar always at the top of the viewport solution */
 	background-color: #454f4e;
-
 	z-index: 1000; /*" The z-index property specifies the stack order of an element.
     An element with greater stack order is always in front of an element with a lower stack order." */
 }
@@ -38,6 +37,8 @@ body {
 a {
 	text-decoration: none;
 	color: white;
+	font-size: 20px;
+	font-weight: bold;
 }
 nav {
 	width: 100%;
